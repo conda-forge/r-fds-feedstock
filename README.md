@@ -1,11 +1,11 @@
-About r-fds
-===========
+About r-fds-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fds-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=fds
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fds-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functional data sets.
 
