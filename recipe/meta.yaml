@@ -1,4 +1,4 @@
-{% set version = '1.8' %}
+{% set version = "1.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fds_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fds/fds_{{ version }}.tar.gz
-  sha256: 203a5e7671e542dcb83d4c75d0f4012aaebc32d54f94657afaf9e71e99dd0489
+  sha256: 1d86f83aa105abd3073e5cdac84da935e12183def93df6c5ed7b871d51df3b0e
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
